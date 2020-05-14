@@ -1,0 +1,18 @@
+<form action="http://443140bc.ngrok.io/payment" method="POST"> 
+<script
+    src="https://checkout.razorpay.com/v1/checkout.js"
+    data-key=<%= Rails.configuration.payment['key_id'] %>
+    data-amount="5"
+    data-currency="INR"
+    data-order_id=<%= @order_id %>
+    data-buttontext="Pay with Razorpay"
+    data-name="Roots"
+    data-description="Pay to roots"
+    data-image=""
+    data-prefill.name=""
+    data-prefill.email=""
+    data-prefill.contact=""
+    data-theme.color="#F37254"
+></script>
+<input type="hidden" custom="Hidden Element" name="hidden">
+</form>

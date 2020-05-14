@@ -1,0 +1,10 @@
+production:
+    environment: production
+    key_id: rzp_test_XbpsbTmnRscVZT
+    secret:  gOzqSUVQselmpKSLgLjjkUv4
+    url: "https://api.razorpay.com/v1/orders"
+development:
+    environment: sandbox
+    key_id: rzp_test_XbpsbTmnRscVZT
+    secret:  gOzqSUVQselmpKSLgLjjkUv4
+    url: "https://api.razorpay.com/v1/orders"
